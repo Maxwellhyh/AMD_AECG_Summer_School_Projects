@@ -1,6 +1,6 @@
 set Project     fast
 set Solution    solution1
-set Device      "xc7z020clg484-1"
+set Device      "xc7z020clg400-1"
 set Flow        "vivado"
 set Clock       10
 
