@@ -1,4 +1,4 @@
-# AMD_AECG_Summer_School_CV_Projects
+# AMD_AECG_Summer_School_Projects
 
 Easy: cordic, filter2d
 
