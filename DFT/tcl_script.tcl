@@ -1,7 +1,7 @@
 set Project     dft
 set Solution    solution1
-set Device      "xcu280-fsvh2892-2l-e"
-set Flow        "vitis"
+set Device      "xc7z020clg400-1"
+set Flow        "vivado"
 set Clock       10
 
 open_project $Project -reset
