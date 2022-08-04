@@ -39,6 +39,7 @@
     - `cols`: 图像宽度（列数）
 
     **其中kernel为任意3*3卷积核，并统一不做padding。**
+    
     在本项目中，输入的图像已经被转化为了一个大小为![](https://render.githubusercontent.com/render/math?math=128\times128)的一维数组。
     输入矩阵是按行展开的。
     
