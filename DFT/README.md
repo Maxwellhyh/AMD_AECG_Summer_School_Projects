@@ -26,16 +26,8 @@
     `dft_test.cpp`文件也无需提交。
     **在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
     比赛不需要生成最终bit文件，仅考察算法实现功能和综合报告的性能，能完成co-sim即可。
-	
-3. 算法说明
 
-    特征加速分割测试(Featuresfrom Accelerated Segment Test, FAST)
-    是一种角点检测方法，可用于提取特征点，
-    并用于许多计算机视觉任务中的目标跟踪。
-    FAST角点检测器使用一个16像素的圆(半径为3的Bresenham圆)
-    来区分候选点是否为角点。
-
-4. 函数原型
+3. 函数原型
 
     ```c++
     void dft(DTYPE real_sample[SIZE], DTYPE imag_sample[SIZE], DTYPE real_op[SIZE], DTYPE imag_op[SIZE])
@@ -60,7 +52,7 @@
     <img src="https://render.githubusercontent.com/render/math?math=\huge%20s_{i,j}=\cos(2\pi\frac{i%20\cdot%20j}{N})-\mathbb{i}\cdot\sin(2\pi\frac{i%20\cdot%20j}{N})">
     </div>
 
-5. 提交程序
+4. 提交程序
 
     您仅需提交cpp文件和h文件。
     请将除`dft_test.cpp`以外的所有cpp和h文件
@@ -69,7 +61,7 @@
     稍待片刻即可在文本框下方得知您的设计是否通过了基本功能测试。
     延迟、面积等性能指标则可在历史提交记录中点击版本号详细查看。
   
-6. 评分规则
+5. 评分规则
 
     - 如果最大频率![](https://render.githubusercontent.com/render/math?math=F_{max}<100\MHz)， 视为未通过基本功能
 
