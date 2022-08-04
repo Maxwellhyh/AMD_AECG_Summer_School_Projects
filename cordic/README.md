@@ -9,7 +9,7 @@
 └── README.md                 //说明文件
 ```
 
-## CORDIC （最近一次更新：4月29日）
+## CORDIC （最近一次更新：8月4日）
 
 1. 框架代码说明
 
@@ -24,7 +24,6 @@
     但是，由于在评分时会统一使用评分系统内部的 `cordiccart2pol_test.cpp` ，
     因此请不要将设计写在 `cordiccart2pol_test.cpp` 中， `cordiccart2pol_test.cpp` 文件也无需提交。
     **在HLS优化的过程中，请务必将优化指令设置为pragma写入c++代码中。**
-    比赛不需要生成最终bit文件，仅考察算法实现功能和综合报告的性能，能完成co-sim即可。
 
 3. 算法说明
 
