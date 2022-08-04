@@ -40,7 +40,7 @@
     ```
     - `img_in`: 图像输入
     - `img_out`: 图像输出
-    - `imag_sample`: 阈值
+    - `threshold`: 阈值
     - `rows`: 图像长度（行数）
     - `cols`: 图像宽度（列数）
 
